@@ -34,8 +34,6 @@ class Stack():
 
 # 1. Easy - Valid Parentheses
 
-![Untitled](Stack%20f93b864d32eb4fa9b09d3f7a5bd3c154/Untitled.png)
-
 ### Best Answer
 
 **Big O:** O(n)
