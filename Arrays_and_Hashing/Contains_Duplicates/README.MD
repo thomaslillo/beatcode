@@ -1,13 +1,15 @@
 # Contains Duplicates
 
-used a set to answer question
+Used a set.
 
 https://leetcode.com/problems/contains-duplicate/
+
+### My Stats
 
 Runtime: 701 ms
 Memory Usage: 28.8 MB
 
-Best solution I saw:
+### Best solution I saw:
 
 ```python
 class Solution:
