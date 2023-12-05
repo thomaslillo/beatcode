@@ -6,6 +6,7 @@ https://leetcode.com/problems/min-stack/
 
 ### my solution was simialr to the best solutions I saw
 
+```python3
 class MinStack:
 
     def __init__(self):
@@ -26,3 +27,4 @@ class MinStack:
 
     def getMin(self) -> int:
         return self.minStack[-1]
+```
