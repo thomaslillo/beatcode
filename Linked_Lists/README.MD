@@ -5,3 +5,8 @@ A linked list is a linear data structure, in which the elements are not stored a
 Each node usually has a value, a pointer to the next node, and usually a pointer to the previous node (making it doubly linked).
 
 There are multiple types including singly linked and doubly linked lists, which are referenced above, but there are also circular linked lists - where all the nodes form a circle - and header linked lists where you can use a header node to store information other that the information found in each node of the linked list.
+
+## Key Properties and Uses
+
+- Can be fast to insert and delete O(1)
+- there is no index, you need to traverse
