@@ -6,7 +6,7 @@ Each node usually has a value, a pointer to the next node, and usually a pointer
 
 There are multiple types including singly linked and doubly linked lists, which are referenced above, but there are also circular linked lists - where all the nodes form a circle - and header linked lists where you can use a header node to store information other that the information found in each node of the linked list.
 
-This is a very foundational data structure, every linked list is also technically a graph and a tree.
+This is a very foundational data structure, every linked list is also technically a graph and a tree. By constraining them they can become a queue or a stack.
 
 An example interface for a linked list:
 
