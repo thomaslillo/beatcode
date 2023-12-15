@@ -1,6 +1,6 @@
 # beatcode
 
-My study of the coolest algos and data structures, in various languages. Some of the coolest stuff in computer science in a single repo.
+My study of some of the coolest stuff in computer science, algorithms and data structures, across multiple languages.
 
 Also working my way through the neetcode roadmap:
 https://neetcode.io/roadmap
