@@ -31,9 +31,9 @@ def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
 ```
 
-### Breakdown of How The Code Works
+### Breakdown of How The Code Works:
 
-Input: 1 -> 2 -> 3 -> 4 -> 5
+*Input: 1 -> 2 -> 3 -> 4 -> 5*
 
 **First call (head=1):**
 
