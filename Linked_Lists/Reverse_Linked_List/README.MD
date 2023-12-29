@@ -14,7 +14,24 @@ https://www.youtube.com/watch?v=G0_I-ZF0S38
 
 The time complexity is O(N) for the number of nodes in the list, same with space.
 
-### Breakdown of How The Code Below Works
+```python
+
+def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    
+    if not head :
+        return None
+
+    newHead = head
+    if head.next :
+        newHead = self.reverseList(head.next)
+        head.next.next = head
+    head.next = None    
+
+    return newHead    
+
+```
+
+### Breakdown of How The Code Works
 
 Input: 1 -> 2 -> 3 -> 4 -> 5
 
@@ -70,19 +87,4 @@ Input: 1 -> 2 -> 3 -> 4 -> 5
   - head->next is set to NULL (making 1->NULL).
   - newHead (which is 5) is returned as the new head of the reversed list.
 
-```python
 
-def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-    
-    if not head :
-        return None
-
-    newHead = head
-    if head.next :
-        newHead = self.reverseList(head.next)
-        head.next.next = head
-    head.next = None    
-
-    return newHead    
-
-```
