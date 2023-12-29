@@ -20,55 +20,55 @@ Input: 1 -> 2 -> 3 -> 4 -> 5
 
 **First call (head=1):**
 
-  head != NULL, so it goes into the recursion.
-  Recursively calls reverseList(2).
+  - head != NULL, so it goes into the recursion.
+  - Recursively calls reverseList(2).
 
 **Second call (head=2):**
 
-  head != NULL, so it goes into the recursion.
-  Recursively calls reverseList(3).
+  - head != NULL, so it goes into the recursion.
+  - Recursively calls reverseList(3).
 
 **Third call (head=3):**
 
-  head != NULL, so it goes into the recursion.
-  Recursively calls reverseList(4).
+  - head != NULL, so it goes into the recursion.
+  - Recursively calls reverseList(4).
 
 **Fourth call (head=4):**
 
-  head != NULL, so it goes into the recursion.
-  Recursively calls reverseList(5).
+  - head != NULL, so it goes into the recursion.
+  - Recursively calls reverseList(5).
 
 **Fifth call (head=5):**
 
-  head != NULL, but there is no next node (head->next == NULL), so it returns 5 itself.
+  - head != NULL, but there is no next node (head->next == NULL), so it returns 5 itself.
 
 **Back to the fourth call (head=4):**
 
-  Now, newHead is 5.
-  head->next->next points to 4 (which is 5->4 now).
-  head->next is set to NULL (making 4->NULL).
-  newHead (which is 5) is returned to the third call.
+  - Now, newHead is 5.
+  - head->next->next points to 4 (which is 5->4 now).
+  - head->next is set to NULL (making 4->NULL).
+  - newHead (which is 5) is returned to the third call.
   
 **Back to the third call (head=3):**
 
-  Now, newHead is 5.
-  head->next->next points to 3 (which is 4->3->NULL now).
-  head->next is set to NULL (making 3->NULL).
-  newHead (which is 5) is returned to the second call.
+  - Now, newHead is 5.
+  - head->next->next points to 3 (which is 4->3->NULL now).
+  - head->next is set to NULL (making 3->NULL).
+  - newHead (which is 5) is returned to the second call.
 
 **Back to the second call (head=2):**
 
-  Now, newHead is 5.
-  head->next->next points to 2 (which is 3->2->NULL now).
-  head->next is set to NULL (making 2->NULL).
-  newHead (which is 5) is returned to the first call.
+  - Now, newHead is 5.
+  - head->next->next points to 2 (which is 3->2->NULL now).
+  - head->next is set to NULL (making 2->NULL).
+  - newHead (which is 5) is returned to the first call.
 
 **Back to the first call (head=1):**
 
-  Now, newHead is 5.
-  head->next->next points to 1 (which is 2->1->NULL now).
-  head->next is set to NULL (making 1->NULL).
-  newHead (which is 5) is returned as the new head of the reversed list.
+  - Now, newHead is 5.
+  - head->next->next points to 1 (which is 2->1->NULL now).
+  - head->next is set to NULL (making 1->NULL).
+  - newHead (which is 5) is returned as the new head of the reversed list.
 
 ```python
 
