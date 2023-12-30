@@ -10,6 +10,6 @@ public int SingleNumber(int[] nums) {
         }                              
     }
 
-    // remove the remaing odd number out - the only 1
+    // remove the remaining odd number out - the only 1
     return digits.Values.First();        
 }
