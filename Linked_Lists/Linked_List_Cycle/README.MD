@@ -42,3 +42,5 @@ public class Solution {
 Explainer vid
 
 https://www.youtube.com/watch?v=PvrxZaH_eZ4
+
+- if fast gets to null, there is no loop, but if fast meets slow, there is a loop
