@@ -7,7 +7,7 @@ did it in O(n)
 
 https://leetcode.com/problems/valid-palindrome/
 
-### Cool Soluton 
+### Coolest Soluton - using a list and reverse list
 ```python
 class Solution:
     def isPalindrome(self, s: str) -> bool:
