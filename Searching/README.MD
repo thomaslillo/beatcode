@@ -1,4 +1,4 @@
-# Searching Algorihms
+# Searching 
 
 
 
