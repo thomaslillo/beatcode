@@ -1,4 +1,4 @@
-Sliding Window Approach
+# Sliding Window Approach
 
 Using two pointers, a slow and fast, to figure out what section of an array meets some requirement.
 
