@@ -6,7 +6,7 @@ Big O: O(n)
 
 My idea was fundamentally the same as the fastest versions but they took advantage of more performant features of C#
 
-## Best Solution
+## Best Solutions I Saw
 
 ```cs
 
